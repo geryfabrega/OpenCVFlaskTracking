@@ -30,8 +30,7 @@ def test():
             return response
             
     if request.method == 'GET':
-        print("GOAT IN THE WATER!")
-        jsonResp = {'FLSGHJRLGJRSHGKRSJG': 'fglkrjghkrghrkgj'}
+        jsonResp = {'Send Image': 'None'}
         return jsonify(jsonResp)
 
 @application.route('/')
